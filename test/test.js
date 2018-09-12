@@ -6,16 +6,13 @@ const expect    = require('chai').expect
 chai.use(require('chai-http'))
 const app = require('../index')
 
-
 describe('API endpoint /colors', function(){
     this.timeout(5000); //how long to wait for a response (ms)
 
     before(function(){
-
     });
 
     after(function(){
-
     });
 
     //Get - List of all colors

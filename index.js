@@ -43,7 +43,6 @@ app.post('/colors', function(req, res,next){
 
 
 app.listen(PORT,HOST);
-
 console.log('Listening on %s:%d...', HOST || '*', PORT);
 
 module.exports = app;
