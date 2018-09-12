@@ -43,7 +43,6 @@ describe('API endpoint /colors', function(){
             })
     })
 
-
     //POST - Add New Color
     it('should add new color', function(){
         return chai.request(app)

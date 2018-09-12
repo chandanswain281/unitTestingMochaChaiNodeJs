@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 var colors = [].concat(DEFAULT_COLORS);
 
-
+// GET - To fetch all colors
 app.get('/colors', function(req,res,next){
     res.json({
         results: colors
@@ -24,6 +24,7 @@ app.get('/colors', function(req,res,next){
 })
 
 
+//POST -  Add new color to colors array
 app.post('/colors', function(req, res,next){
     
     if(typeof req.body.color === 'string'){
